@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href=" youtube/clone.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toggle-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+          <img src="images/logo.png" class="logo">
+        <div class="search-box"> 
+          <input type="" class="search-bar" placeholder="Search">
+          <button class="search-btn"> <img src="images/search.png" alt=""></button>
+        </div>&nbsp;
+        <img src="images/voice-search.png" class="voice">
+        <div class="user-options">
+          <img src="images/upload.png" class="icon">
+          <img src="images/grid.png" class="icon">
+          <img src="images/bell.png"class="icon">
+          <div class="user-dp">
+            <img class="" src="images/WhatsApp Image 2022-12-09 at 7.29.12 PM.jpeg" alt="">
+          </div>
+        </div>
+    </nav>
+
+    <!-- ---------navbar close---------- -->
+
+    <div class="sidebar">
+      <div class="shortcut-links">
+      <a href=""><img src="images/home.png" ><p>Home</p></a>
+      <a href=""><img src="images/liked video.png" ><p>Likes</p></a>
+      <a href=""><img src="images/subscriprion.png" ><p>Subscription</p></a>
+      <hr>
+      <a href=""><img src="images/explore.png" ><p>Explore</p></a>
+      <a href=""><img src="images/library.png" ><p>Library</p></a>
+      <a href=""><img src="images/history.png" ><p>History</p></a>
+      <a href=""><img src="images/playlist.png" ><p>Playlist</p></a>
+      <a href=""><img src="images/messages.png" ><p>Message</p></a>
+      <a href=""><img src="images/show-more.png" ><p>Show More</p></a>
+      <hr>
+      </div>
+      <div class="subscribed-list">
+          <h3>SUBSERIBED</h3>
+          <a href=""><img src="images/Jack.png" ><p>KHAN SIR GS</p></a>
+          <a href=""><img src="images/simon.png" ><p>EXAMPUR</p></a>
+          <a href=""><img src="images/tom.png" ><p></p>CARRY</a>
+          <a href=""><img src="images/megan.png" ><p>CODER</p></a>
+          <a href=""><img src="images/cameron.png" ><p>FULL STACK</p></a>
+
+      </div>
+    </div>
+
+      <div class="filters">
+        <button class="filter-options active"> all</button>
+        <button class="filter-options"> CSS</button>
+        <button class="filter-options"> wed development</button>
+        <button class="filter-options"> python</button>
+        <button class="filter-options"> entertainment</button>
+        <button class="filter-options"> marvals</button>
+        <button class="filter-options"> javascript</button>
+        <button class="filter-options"> artifical</button>
+        <button class="filter-options"> machine learn</button>
+        <button class="filter-options"> trending</button>
+      </div>
+<!-- ---------------------play video------------------- -->
+<div class="container play-container">
+  <div class="row">
+    <div class="play-video">
+      <video controls autoplay>
+        <source src="images/video.mp4" type="video/mp4">
+      </video>
+      <div class="tags">
+        <a href="#Coding"></a><a href="#HTML"></a><a href="#CCS"></a><a href="#JAVASCRIPT"></a>
+        <a href="#REACT.JS"></a>
+
+      </div>
+      <h3>Best Youtube Channel TO Learn Coding</h3>
+      <div class="play-video-info">
+        <p>1M Viewa &bull; 5 days ago</p>
+      </div>
+      <div >
+        <a href=""><img src="images/like.png" alt="">125</a>
+        <a href=""><img src="images/dislike.png" alt="">2</a>
+        <a href=""><img src="images/share.png" >Share</a>
+        <a href=""><img src="images/save.png ">Save</a>
+      </div>
+
+    </div>
+    <div class="right-sidebar">
+
+      
+      <div class="side-video">
+        <img src="images/thumbnail1.png" class="small">
+        <div class="vid-info">
+          <a href="">best channel that help you to be a web developer</a>
+          <p>shivam kashyap</p>
+          <p>1M Views</p>
+        </div>
+      </div>
+      <div class="side-video">
+        <img src="images/thumbnail2.png" class="small">
+        <div class="vid-info">
+          <a href="">best channel that help you to be a web developer</a>
+          <p>shivam kashyap</p>
+          <p>1M Views</p>
+        </div>
+      </div>
+      <div class="side-video">
+        <img src="images/thumbnail3.png" class="small">
+        <div class="vid-info">
+          <a href="">best channel that help you to be a web developer</a>
+          <p>shivam kashyap</p>
+          <p>1M Views</p>
+        </div>
+      </div>
+      <div class="side-video">
+        <img src="images/thumbnail4.png" class="small">
+        <div class="vid-info">
+          <a href="">best channel that help you to be a web developer</a>
+          <p>shivam kashyap</p>
+          <p>1M Views</p>
+        </div>
+      </div>
+      <div class="side-video">
+        <img src="images/thumbnail5.png" class="small">
+        <div class="vid-info">
+          <a href="">best channel that help you to be a web developer</a>
+          <p>shivam kashyap</p>
+          <p>1M Views</p>
+        </div>
+      </div>
+      <div class="side-video">
+        <img src="images/thumbnail6.png" class="small">
+        <div class="vid-info">
+          <a href="">best channel that help you to be a web developer</a>
+          <p>shivam kashyap</p>
+          <p>1M Views</p>
+        </div>
+      </div>
+      <div class="side-video">
+        <img src="images/thumbnail7.png" class="small">
+        <div class="vid-info">
+          <a href="">best channel that help you to be a web developer</a>
+          <p>shivam kashyap</p>
+          <p>1M Views</p>
+        </div>
+      </div>
+      <div class="side-video">
+        <img src="images/thumbnail8.png" class="small">
+        <div class="vid-info">
+          <a href="">best channel that help you to be a web developer</a>
+          <p>shivam kashyap</p>
+          <p>1M Views</p>
+        </div>
+      </div>
+      <div class="side-video">
+        <img src="images/thumbnail3.png" class="small">
+        <div class="vid-info">
+          <a href="">best channel that help you to be a web developer</a>
+          <p>shivam kashyap</p>
+          <p>1M Views</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+    
+</body>
+</html>
